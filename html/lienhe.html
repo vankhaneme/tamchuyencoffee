@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên Hệ - Tám Chuyện Coffee</title>
+    <link rel="stylesheet" href="../css/stylecss.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+        <img src="../picture/logo.jpg" alt="Logo Tám Chuyện">
+            <h1><a href="index.html">Tám Chuyện</a></h1>
+            <span>Gặp nhau là có chuyện</span>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <a href="../index.html">Trang Chủ</a>
+            <a href="../html/thucdon.html">Thực Đơn</a>
+            <a href="../html/gioithieu.html">Giới Thiệu</a>
+            <a href="../html/lienhe.html">Liên Hệ</a>
+            <a href="../html/khuyenmai.html">Khuyến Mãi</a>
+        </ul>
+    </nav>
+    <section class="hero">
+        <h2>Liên Hệ Với Chúng Tôi</h2>
+        <p>Chúng tôi luôn sẵn sàng lắng nghe ý kiến và tiếp nhận thông tin đặt bàn từ bạn.</p>
+    </section>
+    <main class="chua">
+        <h2 class="section-title">Thông Tin & Đặt Bàn</h2>
+        
+        <div class="grid-3" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
+            <div class="content-box">
+                <h3 style="color: var(--primary-color); margin-bottom: 15px;">Ghé Thăm Quán</h3>
+                <p><strong>Điện thoại:</strong> 1234567890</p>
+                <p><strong>Email:</strong> coffetamchuyen123@gmail.com</p>
+                <p><strong>Giờ mở cửa:</strong> 07:00 AM - 10:30 PM </p>
+                <p> <strong> Mở Cửa :</strong> thứ 2 đến thứ 7  </p>
+                <p><strong> Chi Nhánh Khác </strong> 253, Cao Lãnh, Đồng Tháp</p>
+            </div>
+            <div class="content-box">
+                <h3 style="color: var(--primary-color); margin-bottom: 15px;">Gửi Tin Nhắn / Đặt Bàn</h3>
+                <form action="datbanthanhcong.html">
+                    <div style="margin-bottom: 15px;">
+                        <label for="name" style="display: block; font-weight: 600; margin-bottom: 5px;">Họ và Tên:</label>
+                        <input type="text" id="name" placeholder="Nhập tên của bạn" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+                    </div>
+
+                    <div style="margin-bottom: 15px;">
+                        <label for="phone" style="display: block; font-weight: 600; margin-bottom: 5px;">Số điện thoại:</label>
+                        <input type="tel" id="phone" placeholder="Nhập số điện thoại" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+                    </div>
+
+                    <div style="margin-bottom: 20px;">
+                        <label for="message" style="display: block; font-weight: 600; margin-bottom: 5px;">Lời nhắn:</label>
+                        <textarea id="message" rows="4" placeholder="Nội dung lời nhắn hoặc số lượng bàn đặt..." style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;"></textarea>
+                    </div>
+                    <a href="../html/the.html" class="btn">Gửi Yêu Cầu</a>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Địa Chỉ: 123, Cao Lãnh, Đồng Tháp</p>
+        <p>Liên Hệ: 0909 123 456</p>
+        <p>Email: coffetamchuyen123@gmail.com</p>
+    </footer>
+
+</body>
+</html>
